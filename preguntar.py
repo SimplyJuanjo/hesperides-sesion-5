@@ -34,6 +34,8 @@ CUENTA: (3,9 - 3,0) * 2"""
 
 OPERACIONES = {ast.Add: operator.add, ast.Sub: operator.sub, ast.Mult: operator.mul, ast.Div: operator.truediv,
                ast.USub: operator.neg, ast.UAdd: operator.pos}
+# Los LLM escriben a veces espacios finos, el signo menos tipográfico, × o ÷.
+SIMBOLOS = str.maketrans({"\u202f": " ", "\u00a0": " ", "\u2009": " ", "\u2212": "-", "×": "*", "÷": "/"})
 
 
 def calcular(expresion: str) -> float:
@@ -46,7 +48,7 @@ def calcular(expresion: str) -> float:
         if isinstance(nodo, ast.UnaryOp) and type(nodo.op) in OPERACIONES:
             return OPERACIONES[type(nodo.op)](valor(nodo.operand))
         raise ValueError(f"En una cuenta solo valen números y + - * /: {expresion}")
-    return valor(ast.parse(re.sub(r"(\d),(\d)", r"\1.\2", expresion), mode="eval").body)
+    return valor(ast.parse(re.sub(r"(\d),(\d)", r"\1.\2", expresion.translate(SIMBOLOS)), mode="eval").body)
 
 
 def recuperar(pregunta: str, fragmentos: list[dict], modelo: str, k: int) -> list[int]:
