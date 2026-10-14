@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+modelos/
+indices/gemini-embedding-2*.npy
+indices/embed-v5.0-pro*.npy

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "P1",
+    "tipo": "dato",
+    "pregunta": "¿Qué crecimiento del PIB proyecta el Banco de España para 2026 y 2027?",
+    "respuesta": "2,6 % en 2026 y 2,2 % en 2027.",
+    "evidencias": [
+      {
+        "doc": "bde_it_2026t3",
+        "pagina": 9,
+        "cita": "El actual ejercicio de proyecciones de la economía española anticipa un crecimiento del PIB del 2,6 % en 2026 y del 2,2 % en 2027"
+      }
+    ]
+  },
+  {
+    "id": "P2",
+    "tipo": "dato",
+    "pregunta": "¿Cuál fue la inflación de la zona del euro en agosto de 2026?",
+    "respuesta": "3,3 %, desde el 2,9 % de julio.",
+    "evidencias": [
+      {
+        "doc": "bce_declaracion_20260910",
+        "pagina": 3,
+        "cita": "La inflación aumentó hasta el 3,3 % en agosto, desde el 2,9 % registrado en julio."
+      }
+    ]
+  },
+  {
+    "id": "P3",
+    "tipo": "dato",
+    "pregunta": "¿Cuántas entidades había autorizado España como proveedores de servicios de criptoactivos bajo MiCA a julio de 2026?",
+    "respuesta": "20 entidades: 14 proveedores especializados y 6 entidades de crédito (de 77 solicitudes; 16 en trámite).",
+    "evidencias": [
+      {
+        "doc": "cnmv_nota_estabilidad_jul2026",
+        "pagina": 29,
+        "cita": "Actualmente, han recibido autorización 20 entidades (14 proveedores especializados de servicios de criptoactivos y 6 entidades de crédito)"
+      }
+    ]
+  },
+  {
+    "id": "P4",
+    "tipo": "dato",
+    "pregunta": "¿Qué tasa interanual alcanzó la inflación energética en España en septiembre de 2026?",
+    "respuesta": "22 %, 15 pp más que en abril.",
+    "evidencias": [
+      {
+        "doc": "bde_it_2026t3",
+        "pagina": 15,
+        "cita": "La inflación energética alcanzó una tasa interanual del 22 % en septiembre, tras incrementarse en 15 pp desde abril."
+      }
+    ]
+  },
+  {
+    "id": "P5",
+    "tipo": "dato",
+    "pregunta": "Según su PER, ¿hay indicios de sobrevaloración en el Ibex 35?",
+    "respuesta": "Pocos: PER de 13,5 en junio frente a una media histórica de 13,3.",
+    "evidencias": [
+      {
+        "doc": "cnmv_nota_estabilidad_jul2026",
+        "pagina": 18,
+        "cita": "su ratio PER en junio (13,5) era solo ligeramente superior a su media histórica (13,3)"
+      }
+    ]
+  },
+  {
+    "id": "P6",
+    "tipo": "dato",
+    "pregunta": "¿Qué euríbor a tres meses asume el Banco de España para 2026 y 2027?",
+    "respuesta": "2,5 % en 2026 y 3,6 % en 2027 (promedios anuales; supuestos técnicos basados en futuros, cierre 24 de septiembre).",
+    "evidencias": [
+      {
+        "doc": "bde_it_2026t3",
+        "pagina": 27,
+        "cita": "Tipos de interés a corto plazo 2,2 2,5 3,6 0,1 0,8 (euríbor a tres meses; nivel) (e)"
+      }
+    ]
+  },
+  {
+    "id": "M1",
+    "tipo": "multi",
+    "pregunta": "¿Cuántas veces ha subido el BCE los tipos en 2026 y en qué nivel ha quedado el tipo de referencia?",
+    "respuesta": "Dos subidas de 25 pb: junio (hasta el 2,25 %, CNMV) y 10 de septiembre (otros 25 pb, BCE). Queda en el 2,5 % (2,50 %).",
+    "evidencias": [
+      {
+        "doc": "cnmv_nota_estabilidad_jul2026",
+        "pagina": 8,
+        "cita": "En el mes de junio, el BCE aumentó el tipo de interés de referencia en 25 puntos básicos hasta el 2,25 %"
+      },
+      {
+        "doc": "bce_declaracion_20260910",
+        "pagina": 1,
+        "cita": "El Consejo de Gobierno ha decidido subir los tres tipos de interés oficiales del BCE en 25 puntos básicos."
+      },
+      {
+        "doc": "bde_it_2026t3",
+        "pagina": 6,
+        "cita": "Tanto la Reserva Federal de Estados Unidos como el Banco Central Europeo (BCE) incrementaron en 25 pb sus tipos de interés oficiales en su reunión de septiembre, hasta el 3,75 %-4 % en el caso estadounidense y el 2,5 % en el caso europeo."
+      }
+    ]
+  },
+  {
+    "id": "M2",
+    "tipo": "multi",
+    "pregunta": "¿Cuánto más alta es la inflación media prevista para 2026 en España (Banco de España) que en la zona del euro (BCE)?",
+    "respuesta": "0,9 pp: 3,9 % en España frente a 3,0 % en la zona del euro.",
+    "evidencias": [
+      {
+        "doc": "bde_it_2026t3",
+        "pagina": 9,
+        "cita": "mientras que la inflación se situaría en el 3,9 % y el 3,7 %, respectivamente"
+      },
+      {
+        "doc": "bce_declaracion_20260910",
+        "pagina": 1,
+        "cita": "sitúa la inflación general, en promedio, en el 3,0 % en 2026, el 2,5 % en 2027 y el 2,1 % en 2028"
+      }
+    ]
+  },
+  {
+    "id": "N1",
+    "tipo": "calculo",
+    "pregunta": "Si los tipos subieran 50 pb, ¿cuánto caería aproximadamente el valor de la cartera del conjunto de fondos de inversión españoles?",
+    "respuesta": "Alrededor de un 0,97 % (= 1,94 × 0,5 %), aproximación lineal por duración modificada.",
+    "evidencias": [
+      {
+        "doc": "cnmv_nota_estabilidad_jul2026",
+        "pagina": 17,
+        "cita": "La duración modificada al cierre del primer trimestre de 2026 para el conjunto de fondos de inversión18 era de 1,9419 (1,8 en 2024)"
+      },
+      {
+        "doc": "cnmv_nota_estabilidad_jul2026",
+        "pagina": 17,
+        "cita": "Esto significa que un aumento de 100 p. b. en los tipos de interés provocaría una contracción del 1,94 % en el valor de la cartera."
+      }
+    ]
+  },
+  {
+    "id": "U1",
+    "tipo": "sin_respuesta",
+    "pregunta": "¿Qué crecimiento del PIB prevé el Banco de España para la economía española en 2028?",
+    "respuesta": "No está en el corpus. Las proyecciones del Banco de España llegan a 2027. Distractores: 2,1 % del Ministerio de Economía (CNMV, cuadro 2) y 1,5 % del BCE para la zona del euro.",
+    "evidencias": [],
+    "distractores": [
+      {
+        "doc": "bde_it_2026t3",
+        "pagina": 3,
+        "cita": "3 Proyecciones macroeconómicas de la economía española (2026-2027)"
+      },
+      {
+        "doc": "cnmv_nota_estabilidad_jul2026",
+        "pagina": 8,
+        "cita": "2028 2,1 2,1* 2,1 - - - - - -"
+      },
+      {
+        "doc": "bce_declaracion_20260910",
+        "pagina": 1,
+        "cita": "La proyección de referencia para el crecimiento económico se sitúa en el 0,9 % en 2026, el 1,4 % en 2027 y el 1,5% en 2028."
+      }
+    ]
+  },
+  {
+    "id": "S1",
+    "tipo": "semantica",
+    "pregunta": "¿Cuál será el desempleo en España el año que viene?",
+    "respuesta": "9,7 % en 2027 según el Banco de España (el informe dice «tasa de paro», no «desempleo»). El 6,4 % es la zona del euro en julio (BCE).",
+    "evidencias": [
+      {
+        "doc": "bde_it_2026t3",
+        "pagina": 15,
+        "cita": "con un descenso previsto de 0,5 pp en 2026 y de 0,3 pp en 2027, hasta alcanzar el 9,7 % en este último año"
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "tipo": "semantica",
+    "pregunta": "¿Por qué faltan pisos nuevos?",
+    "respuesta": "Restricciones estructurales de la oferta: falta de mano de obra, lentitud de los desarrollos urbanísticos y escasez de suelo finalista; además, costes de los factores y dificultades de conexión a la red eléctrica.",
+    "evidencias": [
+      {
+        "doc": "bde_it_2026t3",
+        "pagina": 13,
+        "cita": "esta evolución futura se encuentra condicionada por la persistencia de restricciones de naturaleza estructural como son la insuficiencia de mano de obra2, la lentitud de los desarrollos urbanísticos o la escasez de suelo finalista."
+      }
+    ]
+  }
+]

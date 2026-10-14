@@ -1,0 +1,23 @@
+{
+  "bde_it_2026t3": {
+    "organismo": "Banco de España",
+    "titulo": "Proyecciones macroeconómicas e informe trimestral de la economía española. Tercer trimestre de 2026",
+    "fecha": "2026-10-09",
+    "corto": "BdE, informe trimestral (9 oct 2026)",
+    "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/InformesBoletinesRevistas/BoletinEconomico/26/T3/be2603-it.pdf"
+  },
+  "bce_declaracion_20260910": {
+    "organismo": "Banco Central Europeo",
+    "titulo": "Declaración de política monetaria del 10 de septiembre de 2026 (traducción del Banco de España)",
+    "fecha": "2026-09-10",
+    "corto": "BCE, declaración de política monetaria (10 sep 2026)",
+    "url": "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/DecisionesPoliticaMonetaria/26/mps260910.pdf"
+  },
+  "cnmv_nota_estabilidad_jul2026": {
+    "organismo": "CNMV",
+    "titulo": "Nota de estabilidad financiera. Primer semestre de 2026",
+    "fecha": "2026-07-30",
+    "corto": "CNMV, nota de estabilidad financiera (30 jul 2026)",
+    "url": "https://www.cnmv.es/DocPortal/Publicaciones/NotaEstabilidad/Nota_de_estabilidad_jul_2026_ES.pdf"
+  }
+}
